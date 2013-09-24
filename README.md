@@ -6,7 +6,6 @@ Blocks ssh login attempts after 5 attempts
 OS X ssh blocking and logging
 
 Copyright (c) 2013 - Karl Kernaghan
-Email - kkernaghan7@gmail.com
 
 To install run sudo ./install.sh
 
@@ -39,5 +38,5 @@ everyday and saves logs for 7 days.
 
 This install script will also run log_fix.pl to get you started without 
 a reboot. For now after each reboot you will need to run ~/bin/log_fix.pl
-if you've decided to find a way to run this during boot, please email me
-and let me know what you did. Thanks.
+if you've decided to find a way to run this during boot, please let me know 
+what you did. Thanks.
