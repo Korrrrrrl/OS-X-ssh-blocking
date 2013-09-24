@@ -1,0 +1,20 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10400\viewh7260\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 These files, scripts and plists will block ssh access after 5 failed attempts\
+to log in. \
+\
+Note to be removed later: There are some system files that we're edited to allow the logging\
+script to work and allow the logs to rotate as the system log. So far the main files are here \
+but we need to find what system changes were made for the logging. Just look at the logging\
+stuff when you haven't been drinking and you can find it.\
+\
+newsyslog.conf needs     /var/log/ssh_blocked.log                640  7     *    @T00  JN    added to it\
+\
+The directories here are showing where these files need to be placed. \
+I have written an install script that will foo all the work for you. \
+just run ./install.sh from the command line. If you choose you may copy\
+and paste them where they need to go. }
