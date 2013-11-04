@@ -23,6 +23,7 @@ log_fix.pl is added to /Users/"user"/bin
 If ~/bin does not exist it will be created.
 This script is to be used after every reboot for the time being as I
 have not found out why things don't work right after a reboot.
+Note: This issue may be resolved now will be testing.
 
 com.ssh_block.script.plist and com.ssh_blocked.blocked_list.plist
 are added to /Library/LaunchDaemons. These are the .plist files that
@@ -38,5 +39,4 @@ everyday and saves logs for 7 days.
 
 This install script will also run log_fix.pl to get you started without 
 a reboot. For now after each reboot you will need to run ~/bin/log_fix.pl
-if you've decided to find a way to run this during boot, please let me know 
-what you did. Thanks.
+Note: this issue may be resolved now
