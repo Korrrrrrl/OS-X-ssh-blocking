@@ -21,9 +21,8 @@ This script creates the format for the log made in /var/log/ssh_blocked.log
 
 log_fix.pl is added to /Users/"user"/bin
 If ~/bin does not exist it will be created.
-This script is to be used after every reboot for the time being as I
-have not found out why things don't work right after a reboot.
-Note: This issue may be resolved now will be testing.
+This script is run manually when issues with logging to var/log/ssh_blocked.log
+are noticed.
 
 com.ssh_block.script.plist and com.ssh_blocked.blocked_list.plist
 are added to /Library/LaunchDaemons. These are the .plist files that
@@ -38,5 +37,7 @@ same fasion as the system.log. This log is set to rotate at 12:00AM
 everyday and saves logs for 7 days.
 
 This install script will also run log_fix.pl to get you started without 
-a reboot. For now after each reboot you will need to run ~/bin/log_fix.pl
-Note: this issue may be resolved now
+a reboot. 
+
+For now after each reboot you will need to run ~/bin/log_fix.pl
+Note: this issue may be resolved now testing
