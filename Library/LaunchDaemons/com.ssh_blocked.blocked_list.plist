@@ -17,7 +17,7 @@
   <integer>300</integer>
 
   <key>RunAtLoad</key>
-  <true/>
+  <true></true>
 
   <key>StandardErrorPath</key>
   <string>/tmp/ssh_blocked_list.err</string>

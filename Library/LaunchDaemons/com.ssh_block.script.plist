@@ -17,7 +17,7 @@
   <integer>60</integer>
 
   <key>RunAtLoad</key>
-  <true/>
+  <true></true>
 
   <key>StandardErrorPath</key>
   <string>/tmp/ssh_block.err</string>
