@@ -37,7 +37,4 @@ same fasion as the system.log. This log is set to rotate at 12:00AM
 everyday and saves logs for 7 days.
 
 This install script will also run log_fix.pl to get you started without 
-a reboot. 
-
-For now after each reboot you will need to run ~/bin/log_fix.pl
-Note: this issue may be resolved now testing
+a reboot. This should only be a one time thing to run.
