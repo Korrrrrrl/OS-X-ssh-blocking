@@ -28,7 +28,8 @@ com.ssh_block.script.plist and com.ssh_blocked.blocked_list.plist
 are added to /Library/LaunchDaemons. These are the .plist files that
 allow this script and relating scripts to run when required.
 
-The following line is added to /etc/newsyslog.conf
+The following line is added to /etc/newsyslog.conf to allow rotating of logs every 
+day at 12:00AM.
 
 /var/log/ssh_blocked.log 640 7 * @T00 JN
 
@@ -37,4 +38,8 @@ same fasion as the system.log. This log is set to rotate at 12:00AM
 everyday and saves logs for 7 days.
 
 This install script will also run log_fix.pl to get you started without 
-a reboot. This should only be a one time thing to run.
+a reboot.
+
+Note: After upgrading OS X I have noticed that /etc/newsyslog.conf was reset to
+defaults. You will have to add /var/log/ssh_blocked.log 640 7 * @T00 JN to 
+/etc/newsyslog.conf to continue having rotating logs.
