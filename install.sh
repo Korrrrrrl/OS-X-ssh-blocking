@@ -74,4 +74,3 @@ echo "Running log_fix.pl"
 sleep 5
 
 echo "All files are installed now. You should now see ssh_blocked.log in /var/log/"
-echo "Reminder: ~/bin/log_fix.pl needs to be run after every reboot to ensure that logging is accurate."
