@@ -21,10 +21,12 @@ ssh_blocked.sh is placed in /etc
 This script creates the format for the log made in /var/log/ssh_blocked.log
 
 
-log_fix.pl is added to /Users/"user"/bin
+log_fix.pl is added to /Users/<user>/bin
 If ~/bin does not exist it will be created.
 This script is to be run manually when issues with logging to var/log/ssh_blocked.log
-are noticed.
+are noticed. 
+
+Note: Sometimes you may need to run log_fix.pl after a reboot. If you don’t see the blocked IP’s in the logs but do see the same IP address logged at least 5 times you can run this to fix the logs to display the IP as blocked. This issue is being worked on and seems to happen at random.
 
 
 com.ssh_block.script.plist and com.ssh_blocked.blocked_list.plist
