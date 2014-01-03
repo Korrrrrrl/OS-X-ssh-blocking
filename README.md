@@ -13,7 +13,7 @@ System changes:
 
 sshd_fwscan.sh is placed in /etc
 This script is called by /Library/LaunchDaemons/com.ssh_block.script.plist
-every 60 seconds. This script blocks ssh access after there are more than
+every 5 seconds. This script blocks ssh access after there are more than
 5 failed access attempts.
 
 
