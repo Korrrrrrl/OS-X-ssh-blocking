@@ -5,7 +5,7 @@ Blocks ssh login attempts after 5 attempts
 
 OS X ssh blocking and logging
 
-Copyright (c) 2013 - Karl Kernaghan
+Copyright (c) 2013 - 2014, Karl Kernaghan
 
 To install run sudo ./install.sh
 
