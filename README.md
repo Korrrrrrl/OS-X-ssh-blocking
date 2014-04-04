@@ -22,7 +22,7 @@ ssh_blocked.sh is placed in /etc
 This script creates the format for the log made in /var/log/ssh_blocked.log
 
 
-log_fix.pl is added to /Users/<user>/bin
+log_fix.pl is added to /Users/\<user\>/bin
 If ~/bin does not exist it will be created.
 This script is to be run manually when issues with logging to var/log/ssh_blocked.log
 are noticed. 
