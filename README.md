@@ -1,9 +1,8 @@
 OS-X-ssh-blocking
 =================
-<<<<<<< HEAD
+
 (Currently does not work on OS X Yosemite)
 =======
->>>>>>> FETCH_HEAD
 
 Blocks ssh login attempts after 5 attempts
 
