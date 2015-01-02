@@ -1,9 +1,9 @@
 #!/bin/sh
 
-# sshd-fwscan.sh
+# sshd_fwscan.sh
 # Modified by Karl Kernaghan - kkernaghan7@gmail.com
 # This script is called by /Library/LaunchDaemons/com.ssh_block.script.plist
-# every 60 seconds. 
+# every 15 seconds. 
 # This script blocks ssh access after there are more than 5 failed access attempts.
 
 if ipfw show | awk '{print $1}' | grep -q 20000 ; then

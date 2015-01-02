@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Installer script for OS X ssh blocking and logging
-# Version 0.1.2
+# Version 0.1.3
 # Copyright (c) 2013 - Karl Kernaghan
 # Email - kkernaghan7@gmail.com
 #
