@@ -46,7 +46,7 @@ echo "Copying log_fix.pl to ~/bin"
 cp bin/log_fix.pl ~/bin
 sleep 3
 echo "Setting permissions"
-chmod +x /etc/log_fix.pl
+chmod +x ~/bin/log_fix.pl
 sleep 3
 
 echo "Adding /var/log/ssh_blocked.log                640  7     *    @T00  JN to /etc/newsyslog.conf"
