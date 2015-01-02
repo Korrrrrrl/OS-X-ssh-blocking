@@ -2,7 +2,7 @@
 
 # Installer script for OS X ssh blocking and logging
 # Version 0.1.3
-# Copyright (c) 2013 - Karl Kernaghan
+# Copyright (c) 2013 - 2015 Karl Kernaghan
 # Email - kkernaghan7@gmail.com
 #
 # To install run sudo ./install.sh
