@@ -1,8 +1,10 @@
 OS-X-ssh-blocking
 =================
 
-(Currently does not work on OS X Yosemite)
-=======
+This project is no longer being developed. A new variant using adaptive firewall is in the works.
+
+Currently does not work on OS X Yosemite. The plists are now displayed as invalid when trying to load and ipfw is no longer available on Yosemite. I am looking to alternatives to make this work again.
+
 
 Blocks ssh login attempts after 5 attempts
 
